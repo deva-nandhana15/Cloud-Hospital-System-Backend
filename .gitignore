@@ -33,4 +33,10 @@ docker-compose.override.yml
 Dockerfile.dev
 
 
-uploads/*
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+uploads/
+*.zip
