@@ -1,0 +1,35 @@
+venv
+.env
+
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+*.log
+*.sqlite3
+*.db
+*.bak
+*.swp
+*.swo
+*.zip
+*.tar.gz
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+
+# Ignore test coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Ignore distribution files
+dist/
+build/
+*.egg-info/
+
+# Ignore Docker files
+docker-compose.override.yml
+Dockerfile.dev
+
+
