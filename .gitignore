@@ -33,3 +33,4 @@ docker-compose.override.yml
 Dockerfile.dev
 
 
+uploads/*
